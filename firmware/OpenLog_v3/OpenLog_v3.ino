@@ -155,7 +155,6 @@
  Fixed issue #134: When removing files and there is a directory, all wildcard files are now removed correctly.
  Fixed issue #135: ls with wildcard works again. Thank you dlkeng!
  
- */
 
 #include <SdFat.h> //We do not use the built-in SD.h file because it calls Serial.print
 #include <SerialPort.h> //This is a new/beta library written by Bill Greiman. You rock Bill!
